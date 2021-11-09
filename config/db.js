@@ -8,7 +8,7 @@ const connectDB = async () => {
     // since mongoose.conn returns a proimse,
     // we add await in front
     await mongoose.connect(db, {
-        useNewUrlParser: true
+        useNewUrlParser: true,
     });
 
     console.log("MongoDB is Connected...");
