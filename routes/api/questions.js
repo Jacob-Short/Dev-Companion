@@ -203,7 +203,7 @@ router.put("/response/vote/:id/:response_id", auth, async (req, res) => {
     await question.save();
   } catch (err) {
     console.error(err.message);
-    res.status(500) / send("Server Error");
+    res.status(500).send("Server Error");
   }
 });
 
