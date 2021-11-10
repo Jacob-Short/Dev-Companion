@@ -1,16 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 export const Base = () => {
     return (
         <div>
             <h2>Welcome</h2>
             <h4>details...</h4>
-            <a href>
+            <Link to='/login'>
             <button>Login</button>
-            </a>
-            <a href>
-            <button>Sign Up</button>
-            </a>
+            </Link>
+            <Link to='/register'>
+            <button>Register</button>
+            </Link>
         </div>
     )
 }
