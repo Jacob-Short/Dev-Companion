@@ -17,6 +17,7 @@ Requirements for the software and other tools to build, test and push
 - [Express](https://expressjs.com/)
 - [React](https://reactjs.org/)
 - [Node](https://nodejs.org/en/)
+- [Mongoose](https://mongoosejs.com/)
 
 ### Installing
 
